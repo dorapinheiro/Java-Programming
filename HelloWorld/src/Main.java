@@ -3,8 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-	//solucao com foreach	
-	
+		//solucao com foreach --> nao se deve usar equals numa string porque ele compara o valor. Se passarmos como argumento ola ola, ele vai imprimir olaola	
+
 		for (String batata : args) {
 			if(batata.equals(args[args.length-1]))
 			{
@@ -15,7 +15,6 @@ public class Main {
 			}
 		}
 	}
-
 }
 
 
