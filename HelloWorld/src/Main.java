@@ -6,7 +6,7 @@ public class Main {
 		for(int i=0; i<args.length;i++)
 		{
 			// utilização de operador ternario
-			System.out.println(args[i] + (( i== args.length-1)? "\n": " "));
+			System.out.print(args[i] + (( i== args.length-1)? "\n": " "));
 		}
 
 	}
