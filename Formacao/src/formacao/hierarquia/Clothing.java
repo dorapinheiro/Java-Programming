@@ -1,6 +1,6 @@
 package formacao.hierarquia;
 
-public class Clothing {
+public class Clothing implements Cloneable {
 	
 	private int itemId;
 	private double price;

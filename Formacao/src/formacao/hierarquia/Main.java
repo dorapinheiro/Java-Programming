@@ -18,6 +18,7 @@ public class Main {
 		
 		Clothing clone = (Clothing) clothing.clone();
 		System.out.println(clothing instanceof Cloneable);
+		System.out.println(clone instanceof Cloneable);
 	}
 
 }
