@@ -33,4 +33,10 @@ public class Clothing {
 		this.itemId = itemId;
 	}
 
+	@Override
+	public Object clone()
+	{
+		return new Clothing(getItemId(), getPrice());
+	}
+	
 }

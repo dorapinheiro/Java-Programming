@@ -15,6 +15,9 @@ public class Main {
 		cs.display();
 		
 		((Shirt)cs).displayShirt();
+		
+		Clothing clone = (Clothing) clothing.clone();
+		System.out.println(clothing instanceof Cloneable);
 	}
 
 }
