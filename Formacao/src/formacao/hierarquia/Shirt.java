@@ -14,4 +14,8 @@ public class Shirt extends Clothing{
 	{
 		System.out.println("Shirt Display: ItemId: " + getItemId() + ", Price: "  +  getPrice());
 	}
+	
+	public void displayShirt(){
+		System.out.println("Ahahahah");
+	}
 }

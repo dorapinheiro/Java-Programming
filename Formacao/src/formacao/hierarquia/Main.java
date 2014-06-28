@@ -13,6 +13,8 @@ public class Main {
 		
 		Clothing cs = new Shirt(1,1.0d);
 		cs.display();
+		
+		((Shirt)cs).displayShirt();
 	}
 
 }
